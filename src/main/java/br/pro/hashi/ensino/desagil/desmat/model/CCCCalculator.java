@@ -7,6 +7,9 @@ public class CCCCalculator extends Calculator {
 
     @Override
     public double calculate(double weight, double radius) {
-        return 3.14;
+        double resultado;
+        radius = radius*Math.pow(10,-21);
+        resultado = (weight*3*Math.sqrt(3))/(19273.6*Math.pow(radius,3));
+        return  resultado;
     }
 }
