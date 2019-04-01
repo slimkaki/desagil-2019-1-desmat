@@ -21,6 +21,9 @@ public class CFCCalculatorTest {
     public void testeCobre() {
         Assertions.assertEquals(8.89, calculator.calculate(63.55, 0.128), 0.000001);
     }
-
-
+  
+    @Test
+    public void testeAlumnio() {
+        Assertions.assertEquals(2.71, calculator.calculate(26.98,0.143), 0.000001);
+    }
 }
