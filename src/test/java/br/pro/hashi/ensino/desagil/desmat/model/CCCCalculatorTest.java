@@ -16,4 +16,10 @@ public class CCCCalculatorTest {
     public void example() {
         Assertions.assertEquals(3.14, calculator.calculate(3, 4), 0.000001);
     }
+
+    @Test
+    public void Bário() {
+        Assertions.assertEquals(3.62, calculator.calculate(137.33, 0.217), 0.000001);
+    }
+
 }
