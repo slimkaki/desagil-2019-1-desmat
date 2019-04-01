@@ -22,4 +22,9 @@ public class CCCCalculatorTest {
         Assertions.assertEquals(3.62, calculator.calculate(137.33, 0.217), 0.000001);
     }
 
+    @Test
+    public void Cromio(){
+        Assertions.assertEquals(7.18, calculator.calculate(52, 0.125),0.000001);
+    }
+
 }
