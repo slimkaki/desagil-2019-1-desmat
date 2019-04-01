@@ -14,17 +14,17 @@ public class CCCCalculatorTest {
 
     @Test
     public void example() {
-        Assertions.assertEquals(3.14, calculator.calculate(3, 4), 0.000001);
+        Assertions.assertEquals(3.14, calculator.calculate(3, 4), 0.01);
     }
 
     @Test
     public void Bário() {
-        Assertions.assertEquals(3.62, calculator.calculate(137.33, 0.217), 0.000001);
+        Assertions.assertEquals(3.62, calculator.calculate(137.33, 0.217), 0.01);
     }
 
     @Test
     public void Cromio(){
-        Assertions.assertEquals(7.18, calculator.calculate(52, 0.125),0.000001);
+        Assertions.assertEquals(7.18, calculator.calculate(52, 0.125),0.01);
     }
 
 }

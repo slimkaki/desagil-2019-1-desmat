@@ -13,17 +13,17 @@ public class CFCCalculatorTest {
     }
 
     @Test
-    public void testeCesio() {
-        Assertions.assertEquals(1.92, calculator.calculate(40.08, 0.197), 0.000001);
+    public void testeCalsio() {
+        Assertions.assertEquals(1.54, calculator.calculate(40.08, 0.197), 0.01);
     }
 
     @Test
     public void testeCobre() {
-        Assertions.assertEquals(8.89, calculator.calculate(63.55, 0.128), 0.000001);
+        Assertions.assertEquals(8.89, calculator.calculate(63.55, 0.128), 0.01);
     }
   
     @Test
     public void testeAlumnio() {
-        Assertions.assertEquals(2.71, calculator.calculate(26.98,0.143), 0.000001);
+        Assertions.assertEquals(2.71, calculator.calculate(26.98,0.143), 0.01);
     }
 }
